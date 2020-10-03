@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="DATOS"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtCheckData"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtNombre"
+        android:hint="@string/Nombre"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtFecha"
+        android:hint="@string/Fecha"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtTelefono"
+        android:hint="@string/telefono"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtEmail"
+        android:hint="@string/email"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txtDescripcion"
+        android:hint="@string/Descripcion"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Editar Datos"
+        android:id="@+id/btnEditData"
+        android:onClick="goMainActivity"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
